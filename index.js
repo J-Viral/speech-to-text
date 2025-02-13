@@ -42,7 +42,7 @@ app.post("/transcribe", upload.single("file"), async (req, res) => {
 
 
 app.get("/", async (req, res) => {
-    res.json("Hi, I am Live");
+    res.json("Hello Guys, I am live for work!");
 });
 
 app.listen(port, () => {
